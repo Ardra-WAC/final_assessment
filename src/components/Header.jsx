@@ -10,7 +10,7 @@ const Header = () => {
   const [selectedCountry, setSelectedCountry] = useState(
     searchParams.get("country") || "kuwait"
   );
-  const [sortBy, setSortBy] = useState(searchParams.get("sort_by") || "1"); // Default to Relevance (1)
+  const [sortBy, setSortBy] = useState(searchParams.get("sort_by") || "1"); 
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
